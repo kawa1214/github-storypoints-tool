@@ -37,7 +37,9 @@ const Popup = () => {
         }}
       />
       <p className="mb-4">
-        https://github.com/projectId/repoId/milestonesページで各マイルストーンのストーリーポイントを確認できます(PersonalAccessTokenはローカルのストレージに保存されません)
+        You can see the story points for each milestone on
+        https://github.com/projectId/repoId/milestones (PersonalAccessToken is
+        not stored in the local storage).
       </p>
       <button
         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
@@ -46,7 +48,7 @@ const Popup = () => {
           sendToContents(api);
         }}
       >
-        マイルストーンを更新
+        Update
       </button>
     </div>
   );

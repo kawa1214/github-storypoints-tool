@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
 
-  "name": "Chrome Extension TypeScript Starter",
-  "description": "Chrome Extension, TypeScript, Visual Studio Code",
+  "name": "Github Storypoints Tool",
+  "description": "This extension manages story points on github issue.",
   "version": "1.0",
 
   "action": {
